@@ -1,0 +1,179 @@
+body{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+text-align: center;
+
+
+}
+
+body{
+    background-color:hsl(30, 38%, 92%) ;
+    height: 100%;
+}
+.container{
+    border: px solid;
+    width: 690px;
+    height: 530px;
+    position:relative;
+    top: 200px;
+    left: 32%;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+img{
+    width: 353px;
+    position: absolute;
+    right: 346px;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+}
+
+
+h1{
+    position: relative;
+    left:100px;
+    top: 40px;
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    font-size: 17px;    
+    text-transform: uppercase; 
+    color: hsl(228, 12%, 48%);
+    font-weight: 600;
+}
+h2{
+    position: relative;
+    left: 380px;
+    top:30px;
+    text-align: left;
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    line-height: 35px;
+
+}
+
+p{
+    position: relative;
+    left: 380px;
+    top: 30px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size:17px;
+    line-height: 27px;
+}
+
+
+.money{
+    color: hsl(158, 36%, 37%);
+    font-size: 40px;
+    font-family: 'Fraunces', serif;
+}
+del{
+    position: relative;
+    bottom: 32px;
+    left: 245px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.pay{
+    position: relative;
+    left: 400px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    top: 20px;
+    background-color: hsl(158, 36%, 37%);
+    text-decoration: none;
+    
+}
+
+a{
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top: 13px;
+
+}
+.pay:hover{
+    background-color: hsl(212, 21%, 14%);
+    
+}
+
+.pay svg{
+    position: relative;
+    right: 5px;
+    top: 2px;
+
+}
+
+    
+ @media screen and (max-width : 375px ) {
+   
+    img{
+    content: url(./images/image-product-mobile.jpg);
+    position: absolute;
+    height: 270px;
+    width: 370px;
+    left: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+    
+    .container{
+        position: relative;
+        right: 200px;
+        width: 370px;
+        height: 700px;
+    }
+    
+ h1{
+    position: absolute;
+    top:290px;
+    left: 30px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+h2{
+    position:absolute;
+    left: 35px;
+    top: 300px;
+    word-spacing:normal;
+    font-size: 30px;
+    
+}
+
+p{
+    position: relative;
+    left: 30px;
+    top: 450px;
+    font-size: 17px;
+    text-align:left;
+    margin: 14px;
+}
+
+del{
+    position: relative;
+    left: 60px;
+    top: 410px;
+}
+
+.pay{
+    position:relative;
+    left: 20px;
+    top: 450px;
+    width: 330px;
+    
+}
+
+ }
+
+
+    
